@@ -16,9 +16,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Navbars />} />
           <Route path="/addcontact" element={<Addcontact />} />
+          <Route path="/update" element={<Update />} />
         </Routes>
       </Router>
-      <Update/>
+      
     </>
   );
 }
