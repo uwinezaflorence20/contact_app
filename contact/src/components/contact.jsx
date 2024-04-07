@@ -31,7 +31,7 @@ const Contact = () => {
     <p>Munezero Magnifique</p>
     <p> 0788287986</p>
     </div>
-     {/* <div className="pr-8 ">
+     <div className="pr-8 ">
         <  FontAwesomeIcon icon={faEllipsis} className='pl-60'/>
         <p>munezeromagnifique@20gmail.com</p>
      </div>
@@ -45,7 +45,7 @@ const Contact = () => {
         <  FontAwesomeIcon icon={faEllipsis} className='pl-60'/>
         <p>ganzairi@20gmail.com</p>
      </div>
-    </div> */}
+    </div>
   </div>
   )
 }
