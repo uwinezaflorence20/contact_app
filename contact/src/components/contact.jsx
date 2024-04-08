@@ -4,7 +4,9 @@ import {faEllipsis} from "@fortawesome/free-solid-svg-icons";
 const Contact = () => {
   return (
     <div>
-    <div className="py-10 flex justify-around items-center text-black  gap-20 mt-4">
+
+<div class="bg-gray-100 p-8">
+<div className="py-10 flex justify-around items-center px-56 text-black  gap-20 mt-4">
     <div className='text-2xl' > 
     welcome to your contact
     </div>
@@ -12,40 +14,57 @@ const Contact = () => {
     <button><a href="/addcontact"> add new</a></button>
     </div>
     </div>
-    <button>
-   <a href='/Update'>
-   <div className="py-4 flex justify-between text-black bg-[#848484b3] rounded-lg mx-60  mt-4">
-    <div className="pl-8">
-    <p>Munezero Magnifique</p>
-    <p> 0788287986</p>
+        <div class="space-y-4 py-5 w-full px-56 items-center justify-center">
+            <div class="bg-white p-4 rounded-md shadow">
+                <a href='/Update'>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h2 class="text-xl font-semibold">Uwimeza florence</h2>
+                        <p class="text-gray-500">0791348662</p>
+                    </div>
+                    <button class=" text-black py-2 px-4 rounded "> < FontAwesomeIcon icon={faEllipsis} className='pl-60'/>
+        <p>uwineza@20gmail.com</p></button>
+                </div></a>
+            </div>
+            <div class="bg-white p-4 rounded-md shadow">
+            <a href='/Update'>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h2 class="text-xl font-semibold">munezeromagnifique</h2>
+                        <p class="text-gray-500">0791348662</p>
+                    </div>
+                    <button class=" text-black py-2 px-4 rounded "> <FontAwesomeIcon icon={faEllipsis} className='pl-60'/>
+        <p>munezeromagnifique@20gmail.com</p></button>
+                </div>
+                </a>
+            </div>
+            <div class="bg-white p-4 rounded-md shadow">
+            <a href='/Update'>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h2 class="text-xl font-semibold">ganza iris</h2>
+                        <p class="text-gray-500">07904570120</p>
+                    </div>
+                    <button class=" text-black py-2 px-4 rounded "> <  FontAwesomeIcon icon={faEllipsis} className='pl-60'/>
+        <p>ganzairs@gmail.com</p></button>
+                </div>
+                </a>
+            </div>
+            <div class="bg-white p-4 rounded-md shadow">
+            <a href='/Update'>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h2 class="text-xl font-semibold">pacifique nyirishema</h2>
+                        <p class="text-gray-500">0788570120</p>
+                    </div>
+                    <button class=" text-black py-2 px-4 rounded "> <  FontAwesomeIcon icon={faEllipsis} className='pl-60'/>
+        <p>mcpac@20gmail.com</p></button>
+                </div>
+                </a>
+            </div>
+        </div>
     </div>
-     <div className="pr-8 ">
-        <  FontAwesomeIcon icon={faEllipsis} className='pl-60'/>
-        <p>munezeromagnifique@20gmail.com</p>
-     </div>
-    </div>
-    </a>
-    </button>
-    <div className="py-4 flex justify-between text-black bg-[#848484b3] rounded-lg mx-60  mt-4">
-    <div className="pl-8">
-    <p>Munezero Magnifique</p>
-    <p> 0788287986</p>
-    </div>
-     <div className="pr-8 ">
-        <  FontAwesomeIcon icon={faEllipsis} className='pl-60'/>
-        <p>munezeromagnifique@20gmail.com</p>
-     </div>
-    </div>
-    <div className="py-4 flex justify-between text-black bg-[#848484b3] rounded-lg mx-60  mt-4">
-    <div className="pl-8">
-    <p>Ganza Iris Ghislaine</p>
-    <p> 0788287986</p>
-    </div>
-     <div className="pr-8 ">
-        <  FontAwesomeIcon icon={faEllipsis} className='pl-60'/>
-        <p>ganzairi@20gmail.com</p>
-     </div>
-    </div>
+   
   </div>
   )
 }

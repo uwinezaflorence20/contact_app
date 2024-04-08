@@ -6,7 +6,7 @@ import Contact from "./contact";
 const Navbars = () => {
   return (
     <div>
-    <div class=" bg-gray-400 py-2 w-full flex flex-wrap justify-center items-center gap-20 ">
+    <div class=" bg-gray-400 py-3 w-full flex flex-wrap justify-center items-center gap-20 ">
     <div class="flex flex-col mb-2 md:mb-0">
       <a class="hover:text-[#4b4849] text-[#393536] text-3xl font-bold">contacts</a>
     </div>
