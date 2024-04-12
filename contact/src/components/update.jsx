@@ -36,7 +36,7 @@ const Update = () => {
       </div>
       <div className='flex gap-4 sm:gap-8 md:gap-12 lg:gap-16 xl:gap-24'>
         <div className="bg-[#242424] text-white rounded-lg hover:bg-[#7d7b7b]">
-          <button className='p-4'><a href='/'>Update</a></button>
+          <button className='p-4'><a href='/Anotheracount'>Update</a></button>
         </div>
         <div className="bg-[#ef4343] text-white rounded-lg hover:bg-[#7d7b7b]">
           <button className='p-4'><a href='/'>Delete</a></button>

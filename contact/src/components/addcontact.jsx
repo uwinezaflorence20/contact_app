@@ -11,7 +11,7 @@ const AddContact = () => {
       <a class="hover:text-[#4b4849] text-[#393536] text-3xl font-bold">contacts</a>
     </div>
     <div class="pr-4 md:pr-8 lg:pr-96 pt-2">
-      <a class="hover:text-[#625d5e] text-[#363233]" href="#Home">Home</a>
+      <a class="hover:text-[#625d5e] text-[#363233]" href="/">Home</a>
     </div>
     <div class="flex flex-wrap text-black items-center gap-1 bg-[#848484b3] px-2 py-1 rounded-lg pr-8 sm:px-4 sm:py-2">
     <div class="text-4xl">
@@ -54,5 +54,56 @@ const AddContact = () => {
   
 
 export default AddContact;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
