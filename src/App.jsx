@@ -19,7 +19,7 @@ function App() {
           <Route path="/addcontact" element={<Addcontact />} />
           <Route path="/update" element={<Update />} />
           <Route path="/anotheracount" element={<Anotheracount />} />
-          <Route path="/Footer" element={<footer />} />
+           <Route path="/Footer" element={<footer />} />
         </Routes>
       </Router>
       
