@@ -11,10 +11,10 @@ const Contact = () => {
     welcome to your contact
     </div>
     <div  class="bg-[#242424] text-white px-4 py-4 rounded-lg hover:bg-[#d8d2d2] ml-20">
-    <button><a href="/addcontact"> add new</a></button>
+    <button><a href=""> </a></button>
     </div>
     </div>
-        <div class="space-y-4 py-5 w-full px-56 items-center justify-center">
+        {/* <div class="space-y-4 py-5 w-full px-56 items-center justify-center">
             <div class="bg-white p-4 rounded-md shadow">
                 <a href='/Update'>
                 <div class="flex justify-between items-center">
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 </a>
             </div>
-        </div>
+        </div> */}
     </div>
    
   </div>
